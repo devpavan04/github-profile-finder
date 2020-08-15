@@ -1,0 +1,34 @@
+#profile-div .profile .row1 {
+  flex-direction: column;
+}
+
+#profile-div .profile .row1 .part1 h1 {
+  margin: 1rem 0;
+}
+
+#profile-div .profile .row1 .part1 i {
+  margin: 1rem 0;
+}
+
+#profile-div .profile .row1 .part2 {
+  text-align: center;
+  margin: 0.5rem 0 0;
+}
+
+#profile-div .profile .row1 .part2 a {
+  display: block;
+  margin: 1rem auto;
+}
+
+#profile-div .profile .row2 {
+  padding: 0 0.5rem;
+  margin: 1rem 0;
+}
+
+#profile-div .profile .row2 ul {
+  flex-wrap: wrap;
+}
+
+#profile-div .profile .row2 ul li {
+  margin: 1rem 0;
+}

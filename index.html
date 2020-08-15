@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.14.0/css/all.css"
+      integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./CSS/style.css" />
+    <link
+      rel="stylesheet"
+      media="screen and (min-width: 360px) and (max-width: 767px)"
+      href="./CSS/mobile.css"
+    />
+    <title>github-profile-finder</title>
+  </head>
+  <body>
+    <div class="container">
+      <nav id="navbar">
+        <img src="./Img/GitHub_Logo.png" alt="" />
+        <h2>Profile Finder</h2>
+      </nav>
+
+      <div id="search-div">
+        <form id="search">
+          <input
+            type="text"
+            id="username"
+            placeholder="ex : google, trufflesuite, devpavan04"
+          />
+          <button type="submit" class="btn">Search Profile</button>
+        </form>
+        <img src="./Img/loader.gif" id="loader" alt="" />
+      </div>
+
+      <div id="profile-div"></div>
+
+    <script src="./JS/github.js"></script>
+    <script src="./JS/ui.js"></script>
+    <script src="./JS/app.js"></script>
+  </body>
+</html>
