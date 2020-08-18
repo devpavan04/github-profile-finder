@@ -18,7 +18,7 @@ class UI {
     if (user.location === null) {
       location = ''
     } else {
-      location = `<p><i class="fas fa-map-marker-alt fa-1x"></i> ${user.location}<p>`
+      location = `<p>Location : ${user.location}<p>`
     }
     if (user.bio === null) {
       bio = `
